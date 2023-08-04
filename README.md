@@ -1,8 +1,8 @@
-# Pragma Circom 2.0.0 Assessment Circuit
+# ZK SNARK Assessment Circuit
 
 This repository contains a circuit written in Pragma Circom  to check if `q` is 0 when the input of `a` is 0 and `b` is 1. The circuit includes custom templates for AND, NOT, and OR gates, which are then used to create the main assessment circuit.
 
-## Circuit Description
+## Description
 
 The assessment circuit consists of three basic gates: AND, NOT, and OR.
 
