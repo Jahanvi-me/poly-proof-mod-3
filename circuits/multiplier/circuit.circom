@@ -1,20 +1,18 @@
 pragma circom 2.0.0;
 
-//This circuit checks that q = 0 when the input of a and b is 0  and 1 respectively 
-
 template AssesmentCircuit () {  
 // signal inputs
 signal input a;
 signal input b;
 
-//signals from gates
+//from gates
 signal x;
 signal y;
 
-//final signal output
+// signal output
 signal output q;
 
-//gates used to create circuit 
+//gates used 
 component andGate = AND();
 component notGate = NOT();
 component orGate = OR();
@@ -58,4 +56,4 @@ template OR() {
 }
 
 
-component main = AssesmentCircuit();
+component main = Circuit();
